@@ -3,8 +3,17 @@ using UnityEngine;
 
 public class Girl : MonoBehaviour
 {
+    [Header("Movement settings")]
     [SerializeField] private float _girlSpeed;
-    [SerializeField] private float _girlJumpForce;
+    [SerializeField] private float _girlJumpHeight;
+    
+    [Header("Overlap ground settings")]
+    [SerializeField] private float _groundDetectRadius;
+    [SerializeField] private Transform _girlBottom;
+    [SerializeField] private string _groundLayerMaskName;
+    
+    [Space]
+    [Header("Dependencies")]
     [SerializeField] private Animator _girlAnimator;
     [SerializeField] private Rigidbody2D _girlRigidbody;
     [SerializeField] private SpriteRenderer _girlSprite;
@@ -17,12 +26,20 @@ public class Girl : MonoBehaviour
     private string _moveTrigger => "Move";
     private string _idleTrigger => "Idle";
     
-    private bool _isGrounded => Input.GetAxisRaw("Vertical");
+    private bool _isGrounded => Physics2D.OverlapCircle(_girlBottom.position,
+        _groundDetectRadius, 
+        LayerMask.GetMask(_groundLayerMaskName));
+    private float _jumpForce => Mathf.Sqrt(_girlJumpHeight * -2 * (Physics2D.gravity.y * _girlRigidbody.gravityScale));
 
     void FixedUpdate()
     {
         TryMoveHorizontal();
-        Jump();
+    }
+    
+    void Update()
+    {
+        if (Input.GetButtonDown("Jump"))
+            Jump();
     }
 
     private void TryMoveHorizontal()
@@ -35,11 +52,10 @@ public class Girl : MonoBehaviour
     
     private void Jump()
     {
-        if (_jumpInput < Single.Epsilon)
+        if (_jumpInput < Single.Epsilon || !_isGrounded)
             return;
         
-        SetTrigger(_idleTrigger);
-        _girlRigidbody.AddForce(new Vector2(_velocity.x, _jumpInput * _girlJumpForce), ForceMode2D.Impulse);
+        _girlRigidbody.AddForce(new Vector2(_velocity.x, _jumpForce), ForceMode2D.Impulse);
     }
 
     private void SetTrigger(string trigger)
