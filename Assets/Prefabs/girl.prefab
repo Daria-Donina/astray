@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6689537853878649511}
   - component: {fileID: 8933622159567381363}
   - component: {fileID: 3095446973354181641}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5886626152444444595}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}

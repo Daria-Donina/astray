@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a073b79-ce61-4498-8c20-e3daff25a87c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/IService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/IService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Initializer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Initializer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/WorldView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/WorldView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.astray/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.astray/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/environment.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/girl.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/girl.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Girl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Girl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652727787756</updated>
       <workItem from="1652727806682" duration="10551000" />
-      <workItem from="1652820621651" duration="2254000" />
+      <workItem from="1652820621651" duration="10684000" />
     </task>
     <servers />
   </component>
