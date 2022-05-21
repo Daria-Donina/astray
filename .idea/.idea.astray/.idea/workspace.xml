@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a073b79-ce61-4498-8c20-e3daff25a87c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/IService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/IService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Initializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Initializer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/WorldView.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/WorldView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Inventory.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/World.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/World/Follower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/World/Follower.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.astray/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.astray/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/girl.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/girl.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Girl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Character/Girl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Girl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Character/Girl.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/IService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/IService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/IService.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/Initializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Initializer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/Initializer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryItem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/WorldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/World/WorldView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/WorldView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/World/WorldView.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +42,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="29G7tjnffz8bEv9fdqr7vL2Iqml" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,10 +69,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19232">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19232" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -80,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1652727787756</updated>
       <workItem from="1652727806682" duration="10551000" />
-      <workItem from="1652820621651" duration="10684000" />
+      <workItem from="1652820621651" duration="10736000" />
+      <workItem from="1653152461581" duration="1627000" />
     </task>
     <servers />
   </component>

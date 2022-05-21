@@ -47,7 +47,7 @@ public class Girl : MonoBehaviour
         SetTrigger(Math.Abs(_moveInput) < Single.Epsilon ? _idleTrigger : _moveTrigger);
 
         _girlRigidbody.velocity = new Vector2(_moveInput * _girlSpeed, _velocity.y);
-        RotateSprite();
+        TryRotateSprite();
     }
     
     private void Jump()
@@ -72,7 +72,7 @@ public class Girl : MonoBehaviour
         _blockAnimator = false;
     }
 
-    private void RotateSprite()
+    private void TryRotateSprite()
     {
         if (Math.Abs(_velocity.x) < Single.Epsilon)
             return;
