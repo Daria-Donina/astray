@@ -1,7 +1,8 @@
-﻿namespace DefaultNamespace
+﻿using System;
+
+namespace DefaultNamespace
 {
-    public interface IService
+    public interface IService : IDisposable
     {
-        
     }
 }

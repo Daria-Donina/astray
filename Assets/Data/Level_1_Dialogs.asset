@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927c9d0422f75494eaf921cb17198199, type: 3}
+  m_Name: Level_1_Dialogs
+  m_EditorClassIdentifier: 
+  _dialogs:
+  - DialogKey: yellow_monster_001
+    Phrases:
+    - Speaker: 1
+      Text: Hey...
+    - Speaker: 0
+      Text: Hello!
+    - Speaker: 1
+      Text: How are you?..
+    - Speaker: 0
+      Text: Great, thanks!
+    _unlocks:
+    - UnlockType: 0
+      UnlockValue: ball_7
+  - DialogKey: yellow_monster_002
+    Phrases:
+    - Speaker: 1
+      Text: TestDialog
+    _unlocks: []

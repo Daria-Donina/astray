@@ -8,9 +8,10 @@ namespace DefaultNamespace
         [SerializeField] private string[] _detectedLayers;
         [SerializeField] private SpriteRenderer _spriteRenderer;
         
-        private LayerMask _layerMask;
+        [Space]
+        [SerializeField] private string _name;
         
-        public event Action<InventoryItem> ItemTouched;
+        private LayerMask _layerMask;
 
         private void Awake()
         {
@@ -19,10 +20,14 @@ namespace DefaultNamespace
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if ((_layerMask.value & (1 << other.transform.gameObject.layer)) > 0) {
+            if ((_layerMask.value & (1 << other.transform.gameObject.layer)) > 0) 
+            {
                 ItemTouched?.Invoke(this);
             }
         }
+        
+        public event Action<InventoryItem> ItemTouched;
+        public string Name => _name;
 
         public void Dispose()
         {

@@ -124,10 +124,10 @@ TextureImporter:
       name: spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4964
-        width: 1040
-        height: 1241
+        x: 294
+        y: 4963
+        width: 542
+        height: 1133
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,10 +145,10 @@ TextureImporter:
       name: spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 4964
-        width: 1040
-        height: 1241
+        x: 1187
+        y: 4990
+        width: 717
+        height: 1109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: spritesheet_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3723
-        width: 1040
-        height: 1241
+        x: 58
+        y: 3854
+        width: 853
+        height: 997
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: spritesheet_3
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 3723
-        width: 1040
-        height: 1241
+        x: 1072
+        y: 3842
+        width: 972
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: spritesheet_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2482
-        width: 1040
-        height: 1241
+        x: 109
+        y: 2490
+        width: 836
+        height: 1115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 2482
-        width: 1040
-        height: 1241
+        x: 1238
+        y: 2481
+        width: 627
+        height: 1121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: spritesheet_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1241
-        width: 1040
-        height: 1241
+        x: 300
+        y: 1245
+        width: 520
+        height: 1115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: spritesheet_7
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 1241
-        width: 1040
-        height: 1241
+        x: 1468
+        y: 1242
+        width: 264
+        height: 1203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: spritesheet_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1040
-        height: 1241
+        x: 466
+        y: 6
+        width: 267
+        height: 1200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: spritesheet_9
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 0
-        width: 1040
-        height: 1241
+        x: 1414
+        y: 3
+        width: 306
+        height: 1203
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

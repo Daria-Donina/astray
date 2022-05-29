@@ -2,28 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a073b79-ce61-4498-8c20-e3daff25a87c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/Inventory.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/World.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/World/Follower.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/World/Follower.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character/CharacterData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character/CharacterData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character/CharacterType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character/CharacterType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character/CharactersData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Character/CharactersData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/Unlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/Unlock.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/UnlockManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/UnlockManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/UnlockType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/UnlockType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/WindowBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/WindowBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/WindowExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/WindowExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/WindowManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/Core/WindowManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Dialog.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Dialog.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/DialogPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/DialogPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/DialogWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/DialogWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Dialogs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Phrase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Phrase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Speaker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/DialogSystem/Speaker.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.astray/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.astray/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Inventory.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Inventory.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Girl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Character/Girl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Girl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Character/Girl.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/IService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/IService.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/IService.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/Initializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/Initializer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/Initializer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryItem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryItem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryPresenter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/InventoryView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryView.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/WorldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/World/WorldView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripts/WorldView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/World/WorldView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/character/spritesheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/character/spritesheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Core/IService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/IService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Core/Initializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Core/Initializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/Inventory/InventoryView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/World/WorldView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/World/WorldView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +59,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/963c7a27d4974d19a463a5599dac1a5d3e00/f0/99ec9375/WindowCore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ad0a7939819048a0a161f66558c9886726800/95/f098932b/AnimatorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/DialogSystem/Dialogs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/9a/d91c074c/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="29G7tjnffz8bEv9fdqr7vL2Iqml" />
   <component name="ProjectLevelVcsManager">
@@ -69,10 +96,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="4344">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="4344" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -90,7 +117,9 @@
       <updated>1652727787756</updated>
       <workItem from="1652727806682" duration="10551000" />
       <workItem from="1652820621651" duration="10736000" />
-      <workItem from="1653152461581" duration="1627000" />
+      <workItem from="1653152461581" duration="6287000" />
+      <workItem from="1653758131489" duration="6237000" />
+      <workItem from="1653819790648" duration="12235000" />
     </task>
     <servers />
   </component>
@@ -143,5 +172,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="dialogValue.IsLocked()" language="C#" />
+        <watch expression="_animator.gameObject.activeInHierarchy" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

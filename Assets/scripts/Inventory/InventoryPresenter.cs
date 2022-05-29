@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -19,6 +20,15 @@ namespace DefaultNamespace
             _collectedItems.Add(item);
             _view.UpdateVisual(item);
             item.Dispose();
+        }
+
+        public bool HasItem(string itemName)
+        {
+            return _collectedItems.Any(x => x.Name == itemName);
+        }
+
+        public void Dispose()
+        {
         }
     }
 }

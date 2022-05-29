@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace DefaultNamespace
 {
-    public class InventoryView : MonoBehaviour
+    public class InventoryView : WindowBase
     {
         [SerializeField] private GameObject _slotsContainer;
         [SerializeField] private RectTransform _root;
